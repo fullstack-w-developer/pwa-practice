@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/London/london-aerial-thames-guide-xlarge.jpg');
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+}
+.card{
+    padding: 2rem;
+    background-color: #eeee;
+    margin: 0.75rem;
+    border-radius: 0.75rem;
+}
+.title{
+    all: inherit;
+    text-align: center;
+    font-size: 2rem ;
+    font-weight: bold;
+    color: brown;
+}
+
+.card_body{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.temp{
+    color: #000000;
+    font-size: 3rem;
+    color: #0096f5;
+}
+.description{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: dodgerblue;
+}
+.search{
+    max-width: 500px;
+    width: 400px ;
+    min-width: 300px;
+    border:none;
+    outline: none;
+    padding: 0.55rem ;
+    border-radius: 0.25rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
